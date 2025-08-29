@@ -1,2 +1,2 @@
-learn oop||False
-python -u "e:\python programs\Begineers Projects\02_To_Do_list.py"||False
+hi there bitch||True
+ohh shit||True

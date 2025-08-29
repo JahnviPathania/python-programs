@@ -34,7 +34,7 @@ def mark_complete():
     view_task()
     try:
         if not tasks:
-            break
+            return
         else:
             index = int(input("Enter task number to mark as completed: ")) - 1
         if 0 <= index < len(tasks):
@@ -57,6 +57,9 @@ def delete_task():
             print(f"Task '{x}' removed.")
             return
     print("Task does not exist.")
+
+load_tasks();
+
 while True:    
     print("menu")
     print("view")
