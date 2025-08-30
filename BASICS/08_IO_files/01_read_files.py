@@ -7,7 +7,7 @@ f=open(r"E:\python programs\BASICS\08_IO_files\demo.txt","r")# here we directly 
 data=f.read()
 print(data) 
 #how to close file
-f.close()#make sure to always close the file after use
+#f.close()#make sure to always close the file after use
 # Common modes:
 # 'r'  → read (file must exist)
 # 'w'  → write (overwrites if file exists, creates if not)
@@ -17,5 +17,6 @@ f.close()#make sure to always close the file after use
 # 't'  → text mode (default)
 # '+'  → read and write combined (e.g., 'r+', 'w+')
 #to read line by line
-f1=open(r"E:\python programs\BASICS\08_IO_files\demo.txt","r")
-line1=f1.readline(1)
+line1=f.readline(1)
+f.close()
+#here you will see that when you use readline after read it prints empty spaces its beacuse the read function already moved the cursor to the end and printed everything so there is nothing for readline to print
