@@ -8,3 +8,6 @@ with open(r"E:\python programs\BASICS\08_IO_files\demo.txt","r") as f:
     #read the next five bytes
     data=f.read(5)
     print(data)
+
+
+
