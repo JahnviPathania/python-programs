@@ -33,3 +33,4 @@ a=person1("jahnvi","data scientist")
 b=person1("ashish","hr")
 a.info()
 b.info()
+
