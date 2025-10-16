@@ -76,7 +76,7 @@
 # difference=ldate-fdate
 # print(difference)
 # Write a Python program to get the volume of a sphere with radius six.
-radius=6
-volume=4/3*3.14*radius*radius*radius
-print("the volume of the cylinder is ", volume)
+# radius=6
+# volume=4/3*3.14*radius*radius*radius
+# print("the volume of the cylinder is ", volume)
 
